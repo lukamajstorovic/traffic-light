@@ -1,0 +1,132 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7
+# Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+# Start of session at: Fri May 28 08:25:35 2021
+# Process ID: 14548
+# Log file: E:/SEEMAAFOOR/planAhead_run_1/planAhead.log
+# Journal file: E:/SEEMAAFOOR/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Common 17-86] Your PlanAhead license expires in -910 day(s)
+INFO: [Device 21-36] Loading parts and site information from D:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [D:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [D:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+INFO: [Common 17-81] Feature available: PartialReconfiguration
+source E:/SEEMAAFOOR/pa.fromHdl.tcl
+# create_project -name SEEMAAFOOR -dir "E:/SEEMAAFOOR/planAhead_run_1" -part xc7a100tcsg324-3
+# set_param project.pinAheadLayout yes
+# set srcset [get_property srcset [current_run -impl]]
+# set_property target_constrs_file "Z150_Uk.ucf" [current_fileset -constrset]
+Adding file 'E:/SEEMAAFOOR/Z150_Uk.ucf' to fileset 'constrs_1'
+# set hdlfile [add_files [list {mux.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {freqDivGen.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {demux.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {counter_Sel.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {Segmentni_7.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {Boje_semafora.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {Zad150_Uk.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set_property top Z150_Uk $srcset
+# add_files [list {Z150_Uk.ucf}] -fileset [get_property constrset [current_run]]
+# open_rtl_design -part xc7a100tcsg324-3
+Using Verific elaboration
+Parsing VHDL file "D:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Parsing VHDL file "D:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Parsing VHDL file "E:/SEEMAAFOOR/mux.vhd" into library work
+Parsing VHDL file "E:/SEEMAAFOOR/freqDivGen.vhd" into library work
+Parsing VHDL file "E:/SEEMAAFOOR/demux.vhd" into library work
+Parsing VHDL file "E:/SEEMAAFOOR/counter_Sel.vhd" into library work
+Parsing VHDL file "E:/SEEMAAFOOR/Segmentni_7.vhd" into library work
+Parsing VHDL file "E:/SEEMAAFOOR/Boje_semafora.vhd" into library work
+Parsing VHDL file "E:/SEEMAAFOOR/Zad150_Uk.vhd" into library work
+Loading clock regions from D:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/artix7/artix7/xc7a100t/ClockRegion.xml
+Loading clock buffers from D:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/artix7/artix7/xc7a100t/ClockBuffers.xml
+Loading clock placement rules from D:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/artix7/ClockPlacerRules.xml
+Loading package pin functions from D:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/artix7/PinFunctions.xml...
+Loading package from D:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/artix7/artix7/xc7a100t/csg324/Package.xml
+Loading io standards from D:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/artix7/IOStandards.xml
+Loading device configuration modes from D:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/artix7/ConfigModes.xml
+Loading list of drcs for the architecture : D:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/artix7/drc.xml
+Parsing UCF File [E:/SEEMAAFOOR/Z150_Uk.ucf]
+Finished Parsing UCF File [E:/SEEMAAFOOR/Z150_Uk.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: e7ad11cc
+open_rtl_design: Time (s): elapsed = 00:00:12 . Memory (MB): peak = 742.438 ; gain = 340.281
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin N15 [get_ports {boje[0]}]
+endgroup
+startgroup
+set_property package_pin M16 [get_ports {boje[1]}]
+endgroup
+startgroup
+set_property package_pin R12 [get_ports {boje[2]}]
+endgroup
+set_property package_pin "" [get_ports [list  {boje[2]}]]
+startgroup
+set_property package_pin M16 [get_ports {boje[1]}]
+endgroup
+startgroup
+set_property package_pin R12 [get_ports {boje[0]}]
+endgroup
+startgroup
+set_property package_pin N15 [get_ports {boje[2]}]
+endgroup
+startgroup
+set_property package_pin T10 [get_ports {segmenti[6]}]
+endgroup
+startgroup
+set_property package_pin R10 [get_ports {segmenti[5]}]
+endgroup
+startgroup
+set_property package_pin K16 [get_ports {segmenti[4]}]
+endgroup
+startgroup
+set_property package_pin K13 [get_ports {segmenti[3]}]
+endgroup
+startgroup
+set_property package_pin P15 [get_ports {segmenti[2]}]
+endgroup
+startgroup
+set_property package_pin T11 [get_ports {segmenti[1]}]
+endgroup
+startgroup
+set_property package_pin L18 [get_ports {segmenti[0]}]
+endgroup
+startgroup
+set_property package_pin E3 [get_ports clk]
+endgroup
+startgroup
+set_property package_pin J15 [get_ports rst]
+endgroup
+save_constraints
+startgroup
+set_property package_pin J15 [get_ports rst]
+endgroup
+exit
+ERROR: [PlanAhead 12-106] *** Exception: ui.h.b: Found deleted key in HTclEventBroker. Verify if the classes listed here call cleanup()
+HTclEvent: DEBUG_CORE_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: DEBUG_PORT_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: SIGNAL_BUS_MODIFY   Classes: ui.views.aR 
+HTclEvent: SIGNAL_MODIFY   Classes: ui.views.aR 
+ (See E:/SEEMAAFOOR\planAhead_pid14548.debug)
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Fri May 28 08:47:32 2021...
+INFO: [Common 17-83] Releasing license: PlanAhead

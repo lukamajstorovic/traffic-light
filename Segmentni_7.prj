@@ -1,0 +1,5 @@
+vhdl work "mux.vhd"
+vhdl work "freqDivGen.vhd"
+vhdl work "demux.vhd"
+vhdl work "counter_Sel.vhd"
+vhdl work "Segmentni_7.vhd"

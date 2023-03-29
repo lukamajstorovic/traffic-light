@@ -1,0 +1,61 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7
+# Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+# Start of session at: Fri May 28 08:25:35 2021
+# Process ID: 14548
+# Log file: E:/SEEMAAFOOR/planAhead_run_1/planAhead.log
+# Journal file: E:/SEEMAAFOOR/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source E:/SEEMAAFOOR/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin N15 [get_ports {boje[0]}]
+endgroup
+startgroup
+set_property package_pin M16 [get_ports {boje[1]}]
+endgroup
+startgroup
+set_property package_pin R12 [get_ports {boje[2]}]
+endgroup
+set_property package_pin "" [get_ports [list  {boje[2]}]]
+startgroup
+set_property package_pin M16 [get_ports {boje[1]}]
+endgroup
+startgroup
+set_property package_pin R12 [get_ports {boje[0]}]
+endgroup
+startgroup
+set_property package_pin N15 [get_ports {boje[2]}]
+endgroup
+startgroup
+set_property package_pin T10 [get_ports {segmenti[6]}]
+endgroup
+startgroup
+set_property package_pin R10 [get_ports {segmenti[5]}]
+endgroup
+startgroup
+set_property package_pin K16 [get_ports {segmenti[4]}]
+endgroup
+startgroup
+set_property package_pin K13 [get_ports {segmenti[3]}]
+endgroup
+startgroup
+set_property package_pin P15 [get_ports {segmenti[2]}]
+endgroup
+startgroup
+set_property package_pin T11 [get_ports {segmenti[1]}]
+endgroup
+startgroup
+set_property package_pin L18 [get_ports {segmenti[0]}]
+endgroup
+startgroup
+set_property package_pin E3 [get_ports clk]
+endgroup
+startgroup
+set_property package_pin J15 [get_ports rst]
+endgroup
+save_constraints
+startgroup
+set_property package_pin J15 [get_ports rst]
+endgroup

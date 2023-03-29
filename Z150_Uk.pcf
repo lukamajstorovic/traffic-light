@@ -1,0 +1,27 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Fri May 28 10:07:38 2021
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "rst" LOCATE = SITE "J15" LEVEL 1;
+COMP "boje<1>" LOCATE = SITE "M16" LEVEL 1;
+COMP "boje<2>" LOCATE = SITE "N15" LEVEL 1;
+COMP "boje<0>" LOCATE = SITE "R12" LEVEL 1;
+COMP "bir_uk<0>" LOCATE = SITE "J17" LEVEL 1;
+COMP "bir_uk<1>" LOCATE = SITE "J18" LEVEL 1;
+COMP "bir_uk<2>" LOCATE = SITE "T9" LEVEL 1;
+COMP "bir_uk<3>" LOCATE = SITE "J14" LEVEL 1;
+COMP "bir_uk<4>" LOCATE = SITE "P14" LEVEL 1;
+COMP "bir_uk<5>" LOCATE = SITE "T14" LEVEL 1;
+COMP "bir_uk<6>" LOCATE = SITE "K2" LEVEL 1;
+COMP "bir_uk<7>" LOCATE = SITE "U13" LEVEL 1;
+COMP "segmenti<0>" LOCATE = SITE "L18" LEVEL 1;
+COMP "segmenti<4>" LOCATE = SITE "K16" LEVEL 1;
+COMP "segmenti<3>" LOCATE = SITE "K13" LEVEL 1;
+COMP "segmenti<2>" LOCATE = SITE "P15" LEVEL 1;
+COMP "segmenti<1>" LOCATE = SITE "T11" LEVEL 1;
+COMP "segmenti<6>" LOCATE = SITE "T10" LEVEL 1;
+COMP "segmenti<5>" LOCATE = SITE "R10" LEVEL 1;
+COMP "clk" LOCATE = SITE "E3" LEVEL 1;
+SCHEMATIC END;
+

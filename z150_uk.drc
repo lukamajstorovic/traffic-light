@@ -1,0 +1,8 @@
+Release 14.7 Drc P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Fri May 28 10:08:17 2021
+
+drc -z Z150_Uk.ncd Z150_Uk.pcf
+
+DRC detected 0 errors and 0 warnings.

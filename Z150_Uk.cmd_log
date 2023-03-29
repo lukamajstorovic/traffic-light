@@ -1,0 +1,87 @@
+xst -intstyle ise -ifn "E:/SEEMAAFOOR/Z150_Uk.xst" -ofn "E:/SEEMAAFOOR/Z150_Uk.syr" 
+xst -intstyle ise -ifn "E:/SEEMAAFOOR/Z150_Uk.xst" -ofn "E:/SEEMAAFOOR/Z150_Uk.syr" 
+xst -intstyle ise -ifn "E:/SEEMAAFOOR/Z150_Uk.xst" -ofn "E:/SEEMAAFOOR/Z150_Uk.syr" 
+xst -intstyle ise -ifn "E:/SEEMAAFOOR/Z150_Uk.xst" -ofn "E:/SEEMAAFOOR/Z150_Uk.syr" 
+xst -intstyle ise -ifn "E:/SEEMAAFOOR/Z150_Uk.xst" -ofn "E:/SEEMAAFOOR/Z150_Uk.syr" 
+xst -intstyle ise -ifn "E:/SEEMAAFOOR/Z150_Uk.xst" -ofn "E:/SEEMAAFOOR/Z150_Uk.syr" 
+xst -intstyle ise -ifn "E:/SEEMAAFOOR/Z150_Uk.xst" -ofn "E:/SEEMAAFOOR/Z150_Uk.syr" 
+xst -intstyle ise -ifn "E:/SEEMAAFOOR/Z150_Uk.xst" -ofn "E:/SEEMAAFOOR/Z150_Uk.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Z150_Uk.ucf -p xc7a100t-csg324-3 Z150_Uk.ngc Z150_Uk.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Z150_Uk_map.ncd Z150_Uk.ngd Z150_Uk.pcf 
+par -w -intstyle ise -ol high -mt off Z150_Uk_map.ncd Z150_Uk.ncd Z150_Uk.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Z150_Uk.twx Z150_Uk.ncd -o Z150_Uk.twr Z150_Uk.pcf -ucf Z150_Uk.ucf 
+bitgen -intstyle ise -f Z150_Uk.ut Z150_Uk.ncd 
+xst -intstyle ise -ifn "E:/SEEMAAFOOR/Z150_Uk.xst" -ofn "E:/SEEMAAFOOR/Z150_Uk.syr" 
+xst -intstyle ise -ifn "E:/SEEMAAFOOR/Z150_Uk.xst" -ofn "E:/SEEMAAFOOR/Z150_Uk.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Z150_Uk.ucf -p xc7a100t-csg324-3 Z150_Uk.ngc Z150_Uk.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Z150_Uk_map.ncd Z150_Uk.ngd Z150_Uk.pcf 
+par -w -intstyle ise -ol high -mt off Z150_Uk_map.ncd Z150_Uk.ncd Z150_Uk.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Z150_Uk.twx Z150_Uk.ncd -o Z150_Uk.twr Z150_Uk.pcf -ucf Z150_Uk.ucf 
+bitgen -intstyle ise -f Z150_Uk.ut Z150_Uk.ncd 
+xst -intstyle ise -ifn "E:/SEEMAAFOOR/Z150_Uk.xst" -ofn "E:/SEEMAAFOOR/Z150_Uk.syr" 
+xst -intstyle ise -ifn "E:/SEEMAAFOOR/Z150_Uk.xst" -ofn "E:/SEEMAAFOOR/Z150_Uk.syr" 
+xst -intstyle ise -ifn "E:/SEEMAAFOOR/Z150_Uk.xst" -ofn "E:/SEEMAAFOOR/Z150_Uk.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Z150_Uk.ucf -p xc7a100t-csg324-3 Z150_Uk.ngc Z150_Uk.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Z150_Uk_map.ncd Z150_Uk.ngd Z150_Uk.pcf 
+par -w -intstyle ise -ol high -mt off Z150_Uk_map.ncd Z150_Uk.ncd Z150_Uk.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Z150_Uk.twx Z150_Uk.ncd -o Z150_Uk.twr Z150_Uk.pcf -ucf Z150_Uk.ucf 
+bitgen -intstyle ise -f Z150_Uk.ut Z150_Uk.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Z150_Uk.ucf -p xc7a100t-csg324-3 Z150_Uk.ngc Z150_Uk.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Z150_Uk_map.ncd Z150_Uk.ngd Z150_Uk.pcf 
+par -w -intstyle ise -ol high -mt off Z150_Uk_map.ncd Z150_Uk.ncd Z150_Uk.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Z150_Uk.twx Z150_Uk.ncd -o Z150_Uk.twr Z150_Uk.pcf -ucf Z150_Uk.ucf 
+bitgen -intstyle ise -f Z150_Uk.ut Z150_Uk.ncd 
+xst -intstyle ise -ifn "E:/SEEMAAFOOR/Z150_Uk.xst" -ofn "E:/SEEMAAFOOR/Z150_Uk.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Z150_Uk.ucf -p xc7a100t-csg324-3 Z150_Uk.ngc Z150_Uk.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Z150_Uk_map.ncd Z150_Uk.ngd Z150_Uk.pcf 
+par -w -intstyle ise -ol high -mt off Z150_Uk_map.ncd Z150_Uk.ncd Z150_Uk.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Z150_Uk.twx Z150_Uk.ncd -o Z150_Uk.twr Z150_Uk.pcf -ucf Z150_Uk.ucf 
+bitgen -intstyle ise -f Z150_Uk.ut Z150_Uk.ncd 
+xst -intstyle ise -ifn "E:/SEEMAAFOOR/Z150_Uk.xst" -ofn "E:/SEEMAAFOOR/Z150_Uk.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Z150_Uk.ucf -p xc7a100t-csg324-3 Z150_Uk.ngc Z150_Uk.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Z150_Uk_map.ncd Z150_Uk.ngd Z150_Uk.pcf 
+par -w -intstyle ise -ol high -mt off Z150_Uk_map.ncd Z150_Uk.ncd Z150_Uk.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Z150_Uk.twx Z150_Uk.ncd -o Z150_Uk.twr Z150_Uk.pcf -ucf Z150_Uk.ucf 
+bitgen -intstyle ise -f Z150_Uk.ut Z150_Uk.ncd 
+xst -intstyle ise -ifn "E:/SEEMAAFOOR/Z150_Uk.xst" -ofn "E:/SEEMAAFOOR/Z150_Uk.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Z150_Uk.ucf -p xc7a100t-csg324-3 Z150_Uk.ngc Z150_Uk.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Z150_Uk_map.ncd Z150_Uk.ngd Z150_Uk.pcf 
+par -w -intstyle ise -ol high -mt off Z150_Uk_map.ncd Z150_Uk.ncd Z150_Uk.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Z150_Uk.twx Z150_Uk.ncd -o Z150_Uk.twr Z150_Uk.pcf -ucf Z150_Uk.ucf 
+bitgen -intstyle ise -f Z150_Uk.ut Z150_Uk.ncd 
+xst -intstyle ise -ifn "E:/SEEMAAFOOR/Z150_Uk.xst" -ofn "E:/SEEMAAFOOR/Z150_Uk.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Z150_Uk.ucf -p xc7a100t-csg324-3 Z150_Uk.ngc Z150_Uk.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Z150_Uk_map.ncd Z150_Uk.ngd Z150_Uk.pcf 
+par -w -intstyle ise -ol high -mt off Z150_Uk_map.ncd Z150_Uk.ncd Z150_Uk.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Z150_Uk.twx Z150_Uk.ncd -o Z150_Uk.twr Z150_Uk.pcf -ucf Z150_Uk.ucf 
+bitgen -intstyle ise -f Z150_Uk.ut Z150_Uk.ncd 
+xst -intstyle ise -ifn "E:/SEEMAAFOOR/Z150_Uk.xst" -ofn "E:/SEEMAAFOOR/Z150_Uk.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Z150_Uk.ucf -p xc7a100t-csg324-3 Z150_Uk.ngc Z150_Uk.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Z150_Uk_map.ncd Z150_Uk.ngd Z150_Uk.pcf 
+par -w -intstyle ise -ol high -mt off Z150_Uk_map.ncd Z150_Uk.ncd Z150_Uk.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Z150_Uk.twx Z150_Uk.ncd -o Z150_Uk.twr Z150_Uk.pcf -ucf Z150_Uk.ucf 
+bitgen -intstyle ise -f Z150_Uk.ut Z150_Uk.ncd 
+xst -intstyle ise -ifn "E:/SEEMAAFOOR/Z150_Uk.xst" -ofn "E:/SEEMAAFOOR/Z150_Uk.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Z150_Uk.ucf -p xc7a100t-csg324-3 Z150_Uk.ngc Z150_Uk.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Z150_Uk_map.ncd Z150_Uk.ngd Z150_Uk.pcf 
+par -w -intstyle ise -ol high -mt off Z150_Uk_map.ncd Z150_Uk.ncd Z150_Uk.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Z150_Uk.twx Z150_Uk.ncd -o Z150_Uk.twr Z150_Uk.pcf -ucf Z150_Uk.ucf 
+bitgen -intstyle ise -f Z150_Uk.ut Z150_Uk.ncd 
+xst -intstyle ise -ifn "E:/SEEMAAFOOR/Z150_Uk.xst" -ofn "E:/SEEMAAFOOR/Z150_Uk.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Z150_Uk.ucf -p xc7a100t-csg324-3 Z150_Uk.ngc Z150_Uk.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Z150_Uk_map.ncd Z150_Uk.ngd Z150_Uk.pcf 
+par -w -intstyle ise -ol high -mt off Z150_Uk_map.ncd Z150_Uk.ncd Z150_Uk.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Z150_Uk.twx Z150_Uk.ncd -o Z150_Uk.twr Z150_Uk.pcf -ucf Z150_Uk.ucf 
+bitgen -intstyle ise -f Z150_Uk.ut Z150_Uk.ncd 
+xst -intstyle ise -ifn "E:/SEEMAAFOOR/Z150_Uk.xst" -ofn "E:/SEEMAAFOOR/Z150_Uk.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Z150_Uk.ucf -p xc7a100t-csg324-3 Z150_Uk.ngc Z150_Uk.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Z150_Uk_map.ncd Z150_Uk.ngd Z150_Uk.pcf 
+par -w -intstyle ise -ol high -mt off Z150_Uk_map.ncd Z150_Uk.ncd Z150_Uk.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Z150_Uk.twx Z150_Uk.ncd -o Z150_Uk.twr Z150_Uk.pcf -ucf Z150_Uk.ucf 
+bitgen -intstyle ise -f Z150_Uk.ut Z150_Uk.ncd 
+xst -intstyle ise -ifn "E:/SEEMAAFOOR/Z150_Uk.xst" -ofn "E:/SEEMAAFOOR/Z150_Uk.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Z150_Uk.ucf -p xc7a100t-csg324-3 Z150_Uk.ngc Z150_Uk.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Z150_Uk_map.ncd Z150_Uk.ngd Z150_Uk.pcf 
+par -w -intstyle ise -ol high -mt off Z150_Uk_map.ncd Z150_Uk.ncd Z150_Uk.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Z150_Uk.twx Z150_Uk.ncd -o Z150_Uk.twr Z150_Uk.pcf -ucf Z150_Uk.ucf 
+bitgen -intstyle ise -f Z150_Uk.ut Z150_Uk.ncd 
